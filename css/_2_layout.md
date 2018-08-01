@@ -50,11 +50,33 @@ css3新增属性对层叠上下文影响：
 
 ## 弹性盒布局：flex
 
-- display
-    - flex
-    - inline-flex
-- align-items
-- justify-content
+- display: flex | inline-flex;
+
+块级元素和行内元素。
+
+- flex-direction: column | row | column-reverse | row-reverse;
+
+    排列方向。
+
+- flex-wrap: nowrap | wrap | wrap-reverse;
+
+    是否换行。
+
+- flex-flow: [flex-direction] [flex-wrap];
+
+    此属性为flex-direction和flex-wrap简写。
+
+- justify-align: flex-start | flex-end | center | space-around | space-between;
+
+    主轴对齐方式。
+
+- align-align: flex-start | flex-end | center | baseline | stretch;
+
+    交叉轴对齐方式。
+
+- align-content: flex-start | flex-end | center | space-around | space-between | stretch;
+
+    多轴线对齐方式。
 
 
 ## 网格布局：Grid
